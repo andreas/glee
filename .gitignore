@@ -1,0 +1,11 @@
+*.swo
+*.swp
+*.native
+*.byte
+*.cmi
+*.cmo
+.DS_Store
+parser.mli
+parser.ml
+lexer.ml
+glee

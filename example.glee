@@ -1,0 +1,28 @@
+:drop [] k;
+:zap drop;
+:dip cake k;
+:cons cake [] k;
+:i [[]] dip k;
+:dup [] cake dip dip;
+:cat [[i] dip i] cons cons;
+:or not swap not and not; 
+:unit [] cons;
+:> unit cons dup i < not swap i = not and;
+:ifte choose i;
+:cat [[i] dip i] cons cons;
+:swap unit dip;
+:dig2 [] cons dip;
+:dig3 [] cons cons dip;
+:bury2 [[] cons cons] dip swap i;
+:bury3 [[] cons cons cons] dip swap i;
+:dup2 dup2 dup bury2;
+:dup3 dig3 dup bury3;
+
+:foldl
+  dup3
+  []
+  =
+  [drop swap drop]
+  [dig3 uncons bury3 swap dup dip fold]
+  ifte
+;
