@@ -33,3 +33,5 @@ This will put you in an interactive console. You can optionally specify an input
 ## Copyright
 
 Copyright (c) 2012 Andreas Garnæs. See [LICENSE](LICENSE) for details.
+
+MENTION BOT TEST
